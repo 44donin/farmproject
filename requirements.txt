@@ -1,3 +1,4 @@
+deep_translator==1.4.4
 pymongo==3.11.4
 Django==3.2.4
 djangorestframework==3.12.4
