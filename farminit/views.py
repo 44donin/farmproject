@@ -9,8 +9,8 @@ from . import mongodb
 
 # Create your views here.
 @api_view(['GET'])
-def GetInformation(request,district,crop):
-    data = mongodb.GetExpertSuggestion(district,crop)
+def GetInformation(request,district,crop,language):
+    data = mongodb.GetExpertSuggestion(district,crop,language)
     return Response(data)
 
 @api_view(['POST'])

@@ -77,14 +77,7 @@ WSGI_APPLICATION = 'farm.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'doninfarmerinitiative',
-        'HOST' : 'mongodb+srv://tesairo:saiteja@doninfarmerinitiative.forxd.mongodb.net/doninfarmerinitiative?retryWrites=true&w=majority',
-        'USER' : 'tesairo',
-        'PASSWORD' : 'saiteja',
-        
-    }
+    
 }
 
 
