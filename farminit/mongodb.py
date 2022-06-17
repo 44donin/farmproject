@@ -35,7 +35,8 @@ def GetExpertSuggestion(district,crop,language):
     data = {
         "titles" : title_array,
         "information_in_local_languages" : info_local_lang_array,
-        "information" : info_array
+        "information" : info_array,
+        "language_code" : GoogleTranslator.get_supported_languages(as_dict=True)[language]
     }
     return data
     
